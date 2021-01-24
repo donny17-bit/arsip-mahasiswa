@@ -42,37 +42,39 @@
     <br>
 
     <center>
-        <div class="row justify-content-center">
-            <center>
-                <div class="col-auto">
-                    <img src="http://exelsa.usd.ac.id/lihatGambar.php?act=nim&nim=<?= $nim; ?>" style="border-radius: 5%; width: 10rem">
-                </div>
-            </center>
-        </div>
-        <br>
-        <div class="row justify-content-center ">
-            <div class="col-auto text-center" style="border-radius:5%; background-color: hsla(0, 30%, 90%, 0.7); color: black; font-size: 20px;">
-                <b><?= $nim; ?> </b>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <center>
+                    <div class="col-auto">
+                        <img src="http://exelsa.usd.ac.id/lihatGambar.php?act=nim&nim=<?= $nim; ?>" style="border-radius: 5%; width: 10rem">
+                    </div>
+                </center>
             </div>
             <br>
-        </div>
-        <br>
-        <div class="what">
-            <div class="nav2" style="background-color: hsla(198, 100%, 58%, 0.69);">
-                <input type="checkbox">
-                <span></span>
-                <span></span>
-                <div class="menu">
-                    <li><a href="<?= base_url(); ?>/laporan/<?= $nim; ?>">Laporan</a></li>
-                    <li><a href="<?= base_url(); ?>/detail/<?= $nim; ?>">Biodata</a></li>
-                    <li><a href="<?= base_url(); ?>/asistensi/<?= $nim; ?>">Asistensi</a></li>
-                    <li><a href="<?= base_url(); ?>/kolokium/<?= $nim; ?>">Kolokium </a> </li>
-                    <li><a href="<?= base_url(); ?>/pendadaran/<?= $nim; ?>">Pendadaran</a></li>
-                    <li><a href="<?= base_url(); ?>/yudisium/<?= $nim; ?>">Yudisium</a></li>
-                    <li><a href="<?= base_url(); ?>/kerja-praktek/<?= $nim; ?>">Seminar KP</a></li>
-                    <li><a href="<?= base_url(); ?>/skripsi/<?= $nim; ?>">Naskah Skripsi</a></li>
-                    <li><a href="<?= base_url(); ?>/lomba/<?= $nim; ?>">Lomba</a></li>
-                    <li><a href="<?= base_url(); ?>/jurnal/<?= $nim; ?>">Jurnal</a></li>
+            <div class="row justify-content-center ">
+                <div class="col-auto text-center" style="border-radius:5%; background-color: hsla(0, 30%, 90%, 0.7); color: black; font-size: 20px;">
+                    <b><?= $nim; ?> </b>
+                </div>
+                <br>
+            </div>
+            <br>
+            <div class="what">
+                <div class="nav2" style="background-color: hsla(198, 100%, 58%, 0.69);">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <div class="menu">
+                        <li><a href="<?= base_url(); ?>/laporan/<?= $nim; ?>">Laporan</a></li>
+                        <li><a href="<?= base_url(); ?>/detail/<?= $nim; ?>">Biodata</a></li>
+                        <li><a href="<?= base_url(); ?>/asistensi/<?= $nim; ?>">Asistensi</a></li>
+                        <li><a href="<?= base_url(); ?>/kolokium/<?= $nim; ?>">Kolokium </a> </li>
+                        <li><a href="<?= base_url(); ?>/pendadaran/<?= $nim; ?>">Pendadaran</a></li>
+                        <li><a href="<?= base_url(); ?>/yudisium/<?= $nim; ?>">Yudisium</a></li>
+                        <li><a href="<?= base_url(); ?>/kerja-praktek/<?= $nim; ?>">Seminar KP</a></li>
+                        <li><a href="<?= base_url(); ?>/skripsi/<?= $nim; ?>">Naskah Skripsi</a></li>
+                        <li><a href="<?= base_url(); ?>/lomba/<?= $nim; ?>">Lomba</a></li>
+                        <li><a href="<?= base_url(); ?>/jurnal/<?= $nim; ?>">Jurnal</a></li>
+                    </div>
                 </div>
             </div>
         </div>
