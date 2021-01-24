@@ -7,10 +7,11 @@
     <h1>PERBARUI DATA</h1>
     <br>
     <div class="container-fluid">
+        <br><br>
         <div class="row justify-content-center">
             <table class="mt-5">
                 <tr>
-                    <td>
+                    <td style="padding: 10px;">
                         <a class="nav-link" href="<?= base_url('/perbaruiMhs'); ?>">
                             <div id="btn">
                                 MAHASISWA
@@ -18,8 +19,8 @@
                             </div>
                         </a>
                     </td>
-                    <td>
-                        <a class="nav-link" href="<?= base_url('/perbaruiAngkatan'); ?>">
+                    <td style="padding: 10px;">
+                        <a class=" nav-link" href="<?= base_url('/perbaruiAngkatan'); ?>">
                             <div id="btn">
                                 ANGKATAN
                                 <div id="circle"></div>
@@ -29,6 +30,7 @@
                 </tr>
             </table>
         </div>
+        <br>
         <div class="row justify-content-center">
             <div class="col">
                 <a class="nav-link" href="<?= base_url('/perbaruiDosen'); ?>">

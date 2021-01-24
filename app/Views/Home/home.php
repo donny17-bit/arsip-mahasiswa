@@ -41,10 +41,11 @@
             text-align: center;
             font-size: 28px;
             padding: 20px;
-            width: 200px;
+            height: 100px;
+            width: 300px;
             transition: all 0.5s;
             cursor: pointer;
-            margin: 5px;
+            margin: 15px;
         }
 
         .button span {
@@ -82,14 +83,25 @@
         </h1>
     </div>
     <br>
-    <center>
-        <a class="nav-link" href="<?= base_url('/perbarui'); ?>">
-            <button class="button"><span>Perbarui </span></button>
-        </a>
-        <a class="nav-link" href="<?= base_url('/telusuri'); ?>">
-            <button class="button"><span>Telusuri </span></button>
-        </a>
-    </center>
+    <div>
+        <center>
+            <a class="nav-link" href="<?= base_url('/perbarui'); ?>">
+                <button class="button"><span>Perbarui </span></button>
+            </a>
+            <a class="nav-link" href="<?= base_url('/telusuri'); ?>">
+                <button class="button"><span>Telusuri </span></button>
+            </a>
+
+        </center>
+    </div>
+    <br>
+    <div class="row justify-content-center">
+        <center>
+            <a class="nav-link" href="<?= base_url('/telusuri'); ?>">
+                <button class="button"><span>Sistem Penjadwalan Mahasiswa </span></button>
+            </a>
+        </center>
+    </div>
 </body>
 
 </html>
