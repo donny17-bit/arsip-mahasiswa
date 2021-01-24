@@ -17,7 +17,7 @@
                 </li>
             </ul>
             <form action="<?= base_url(); ?>/daftar-mahasiswa" class="form-inline my-2 my-lg-0" method="get">
-                <input class="form-control mr-sm-2" type="search" placeholder="Cari Arsip Mahasiswa" aria-label="Search" name="keyword">
+                <input class="form-control mr-sm-1" type="search" placeholder="NIM/Nama Mahasiswa" aria-label="Search" name="keyword">
                 <button class="btn btn-primary my-2 my-sm-0" type="submit">Cari</button>
             </form>
         </div>
