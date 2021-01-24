@@ -48,6 +48,23 @@
             margin: 15px;
         }
 
+        #spm {
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            border-radius: 15px;
+
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            height: 100px;
+            width: 400px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 15px;
+        }
+
         .button span {
             cursor: pointer;
             display: inline-block;
@@ -97,8 +114,8 @@
     <br>
     <div class="row justify-content-center">
         <center>
-            <a class="nav-link" href="<?= base_url('/telusuri'); ?>">
-                <button class="button"><span>Sistem Penjadwalan Mahasiswa </span></button>
+            <a class="nav-link" href="http://localhost/informatika/">
+                <button class="button" id="spm"><span>Sistem Penjadwalan Mahasiswa </span></button>
             </a>
         </center>
     </div>
