@@ -1,11 +1,11 @@
 # CodeIgniter 4 Arsip Mahasiswa
 
-##requirement :
-xampp
-composer
-cmd
+## requirement :
+1. xampp
+2. composer
+3. cmd
 
-##how to install :
+## how to install :
 1. make sure you have installed composer on your machine
 2. open xampp and run MySql and Apache
 3. import informatika.sql to MySql database
